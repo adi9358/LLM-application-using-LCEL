@@ -29,7 +29,6 @@ class ChainRequest(BaseModel):
 async def run_chain(request: ChainRequest):
     response = await chain.ainvoke({
         "text": request.text,
-        "language": request.language
     })
     return {"response": response}
 
