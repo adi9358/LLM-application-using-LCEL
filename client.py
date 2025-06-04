@@ -1,7 +1,7 @@
 import requests
 import streamlit as st
 
-API_URL = "https://your-fastapi-server-url/chain"  # Replace with actual deployed FastAPI URL
+API_URL = "https://llm-application-using-lcel-1.onrender.com/chain"  # Replace with actual deployed FastAPI URL
 
 def get_groq_response(input_text):
     json_body = {
