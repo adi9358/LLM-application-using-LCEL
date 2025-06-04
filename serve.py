@@ -23,7 +23,6 @@ app = FastAPI(title="Langchain Server", version="1.0")
 
 class ChainRequest(BaseModel):
     text: str
-    language: str
 
 @app.post("/chain")
 async def run_chain(request: ChainRequest):
