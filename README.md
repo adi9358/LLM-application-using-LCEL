@@ -11,7 +11,6 @@ This project demonstrates a simple application utilizing the **LangChain Express
 
 ## Prerequisites
 
-- Python 3.7 or higher
 - [Poetry](https://python-poetry.org/docs/#installation) for dependency management
 
 ## Installation
